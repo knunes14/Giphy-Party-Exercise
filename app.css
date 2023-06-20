@@ -1,0 +1,40 @@
+body {
+   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+h1 {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px; 
+}
+
+#submit-gifs {
+    background-color: gray;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px; 
+}
+
+#remove-gifs {
+    background-color: orangered;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px; 
+}
+
+.gif {
+    margin-right:10px;
+}
